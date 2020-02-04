@@ -4,9 +4,9 @@ import Slider from "./Slider";
 import data from "../data.json";
 
 const Content = () => {
-  return data.map(element => {
+  return data.map((element, index) => {
     return (
-      <div key={element.category}>
+      <div key={index}>
         <Category category={element.category} />
         <div className="slider">
           <Slider images={element.images} />

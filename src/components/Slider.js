@@ -2,12 +2,13 @@ import React from "react";
 import Image from "./Image";
 
 const Slider = props => {
-  const tab = [];
-
-  for (let i = 0; i < props.images.length; i++) {
-    tab.push(<Image key={i} url={props.images[i]} />);
-  }
-  return <div className="slider">{tab}</div>;
+  return (
+    <div className="slider">
+      {props.images.map((element, index) => {
+        return <Image key={index} url={element} />;
+      })}
+    </div>
+  );
 };
 
 export default Slider;
