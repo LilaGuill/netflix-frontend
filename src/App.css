@@ -1,15 +1,24 @@
+html {
+  height: 100%;
+}
 body {
+  position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
   width: 100%;
+  height: 100%;
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100px;
   display: flex;
   align-items: center;
+  background-color: black;
 }
 
 .logo {
@@ -24,6 +33,9 @@ body {
   display: flex;
   overflow: hidden;
   overflow-x: scroll;
+  height: 145px;
+  display: flex;
+  align-items: center;
 }
 .slider::-webkit-scrollbar {
   display: none;
@@ -42,4 +54,28 @@ body {
   height: 125px;
   object-fit: cover;
   object-position: center;
+}
+
+.image:hover {
+  box-shadow: 0 0 10px rgb(65, 65, 65);
+  transition: 0.3s;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  z-index: 9999;
 }
