@@ -1,7 +1,7 @@
 <h1 align="center">Netflix frontend</h1>
 
 <p align="center">
-  <img width="500" src="https://github.com/LilaGuill/netflix-frontend/blob/master/public/screen1.png" alt="capture-1">
+  <img width="500" src="https://github.com/LilaGuill/netflix-frontend/blob/master/public/screen.png" alt="capture-1">
 </p>
 
 <p align="center">
@@ -15,7 +15,8 @@
 
 **Single page application**
 
-- Netflix interface
+- React
+- Slider
 
 **UI**
 
