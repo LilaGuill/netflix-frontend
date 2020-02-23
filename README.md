@@ -15,8 +15,8 @@
 
 **Single page application**
 
-- React
-- Slider
+- Display images from a Json files
+- Images are displayed by categories in a component "slider"
 
 **UI**
 
