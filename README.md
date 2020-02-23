@@ -15,7 +15,7 @@
 
 **Single page application**
 
-- Display images from a Json files
+- Display images from a JSON file
 - Images are displayed by categories in a component "slider"
 
 **UI**
