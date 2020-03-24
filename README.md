@@ -1,4 +1,4 @@
-<h1 align="center">Netflix frontend</h1>
+<h1 align="center">Netflix clone</h1>
 
 <p align="center">
   <img width="500" src="https://github.com/LilaGuill/netflix-frontend/blob/master/public/Kapture.gif" alt="capture-1">
